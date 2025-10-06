@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Auto Submitter",
+  "version": "1.0",
+  "description": "Tự động dán và gửi nội dung vào ChatGPT.",
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["scripting"]
+}
